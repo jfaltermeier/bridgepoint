@@ -11,6 +11,14 @@
     <tycho-version>0.25.0</tycho-version>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>mars</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/releases/mars/</url>
+    </repository>
+  </repositories>
+
   <modules>
     <module>../../src/org.xtuml.bp.als.oal</module>
     <module>../../src/org.xtuml.bp.als.oal.test</module>
