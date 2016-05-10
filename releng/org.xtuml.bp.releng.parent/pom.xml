@@ -6,6 +6,11 @@
   <artifactId>org.xtuml.bp.releng.parent</artifactId>
   <version>5.3.4</version>
   <packaging>pom</packaging>
+
+  <properties>
+    <tycho-version>0.25.0</tycho-version>
+  </properties>
+
   <modules>
     <module>../../src/org.xtuml.bp.als.oal</module>
     <module>../../src/org.xtuml.bp.als.oal.test</module>
@@ -70,7 +75,7 @@
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
-        <version>0.25.0</version>
+        <version>${tycho-version}</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>
