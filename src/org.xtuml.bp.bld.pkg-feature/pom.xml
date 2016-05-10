@@ -9,7 +9,7 @@
     <relativePath>../../releng/org.xtuml.bp.releng.parent/</relativePath>
   </parent>
   <groupId>org.xtuml.bp</groupId>
-  <artifactId>org.xtuml.bp.bld.pkg</artifactId>
+  <artifactId>org.xtuml.bp.bld.pkg.feature</artifactId>
   <version>5.3.4</version>
   <packaging>eclipse-feature</packaging>
 </project>
