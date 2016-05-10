@@ -69,10 +69,10 @@
     <module>../../src/org.xtuml.bp.ui.session</module>
     <module>../../src/org.xtuml.bp.ui.text</module>
     <!--module>../../src/org.xtuml.bp.ui.text.test</module-->
-    <module>../../src/org.xtuml.bp.ui.xtext.masl</module>
-    <module>../../src/org.xtuml.bp.ui.xtext.masl.ide</module>
+    <!--module>../../src/org.xtuml.bp.ui.xtext.masl</module-->
+    <!--module>../../src/org.xtuml.bp.ui.xtext.masl.ide</module-->
     <!--module>../../src/org.xtuml.bp.ui.xtext.masl.tests</module-->
-    <module>../../src/org.xtuml.bp.ui.xtext.masl.ui</module>
+    <!--module>../../src/org.xtuml.bp.ui.xtext.masl.ui</module-->
     <!--module>../../src/org.xtuml.bp.ui.xtext.masl.ui.tests</module-->
     <module>../../src/org.xtuml.bp.utilities</module>
     <module>../../src/org.xtuml.bp.verifier.pkg</module>
