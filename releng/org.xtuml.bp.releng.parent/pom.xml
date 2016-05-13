@@ -82,23 +82,27 @@
     <module>../../src/org.xtuml.bp.x2m</module>
     <module>../../src/org.xtuml.help.bp.mc</module>
     <!--module>../../src/org.xtuml.internal.test</module-->
+    <module>../org.xtuml.bp.releng.p2</module>
   </modules>
   
   <build>
+    <sourceDirectory>src</sourceDirectory>
+    <outputDirectory>bin</outputDirectory>
     <plugins>
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-maven-plugin</artifactId>
         <version>${tycho-version}</version>
         <extensions>true</extensions>
-      </plugin>		<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-compiler-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<compilerArgument>-warn:+discouraged,forbidden</compilerArgument>
-					</configuration>
-				</plugin>
+      </plugin>		
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-compiler-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <compilerArgument>-warn:+discouraged,forbidden</compilerArgument>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
   
