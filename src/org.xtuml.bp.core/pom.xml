@@ -59,7 +59,7 @@
                 <property name="ant.home"
                           value="/home/johannes/xtuml/BridgePoint/eclipse/plugins/org.apache.ant_1.9.4.v201504302020"/>
                 <ant antfile="${basedir}/generate.xml"
-                     target="all"/>
+                     target="nb_all"/>
               </tasks>
             </configuration>
           </execution>
