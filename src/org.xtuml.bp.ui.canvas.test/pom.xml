@@ -4,12 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.xtuml.bp</groupId>
-    <artifactId>org.xtuml.bp.releng.parent</artifactId>
+    <artifactId>org.xtuml.bp.releng.parent.tests</artifactId>
     <version>5.3.4</version>
-    <relativePath>../../releng/org.xtuml.bp.releng.parent/</relativePath>
+    <relativePath>../../releng/org.xtuml.bp.releng.parent.tests/</relativePath>
   </parent>
   <groupId>org.xtuml.bp</groupId>
   <artifactId>org.xtuml.bp.ui.canvas.test</artifactId>
   <version>1.0.0</version>
-  <packaging>eclipse-test-plugin</packaging>
+  <!--packaging>eclipse-test-plugin</packaging-->
+  <packaging>eclipse-plugin</packaging>
 </project>
