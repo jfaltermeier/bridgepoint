@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.xtuml.bp.bld.pkg_5.3.4.jar" id="org.xtuml.bp.bld.pkg" version="5.3.4">
+   <feature id="org.xtuml.bp.bld.pkg.feature" version="0.0.0">
       <category name="org.xtuml.bp.releng.p2"/>
    </feature>
-   <feature url="features/org.xtuml.bp.bld.pkg.feature_5.3.4.jar" id="org.xtuml.bp.bld.pkg.feature" version="5.3.4">
+   <feature id="org.xtuml.bp.pkg.feature" version="0.0.0">
       <category name="org.xtuml.bp.releng.p2"/>
    </feature>
-   <feature url="features/org.xtuml.bp.pkg_5.3.4.jar" id="org.xtuml.bp.pkg" version="5.3.4">
-      <category name="org.xtuml.bp.releng.p2"/>
-   </feature>
-   <feature url="features/org.xtuml.bp.pkg.feature_5.3.4.jar" id="org.xtuml.bp.pkg.feature" version="5.3.4">
-      <category name="org.xtuml.bp.releng.p2"/>
-   </feature>
-   <feature url="features/org.xtuml.bp.verifier.pkg_5.3.4.jar" id="org.xtuml.bp.verifier.pkg" version="5.3.4">
-      <category name="org.xtuml.bp.releng.p2"/>
-   </feature>
-   <feature url="features/org.xtuml.bp.verifier.pkg.feature_5.3.4.jar" id="org.xtuml.bp.verifier.pkg.feature" version="5.3.4">
+   <feature id="org.xtuml.bp.verifier.pkg.feature" version="0.0.0">
       <category name="org.xtuml.bp.releng.p2"/>
    </feature>
    <category-def name="org.xtuml.bp.releng.p2" label="BridgePoint Features"/>

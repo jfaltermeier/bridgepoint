@@ -4,12 +4,67 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.xtuml.bp</groupId>
-    <artifactId>org.xtuml.bp.releng.parent</artifactId>
+    <artifactId>org.xtuml.bp.releng.parent.generation</artifactId>
     <version>5.3.4</version>
-    <relativePath>../../releng/org.xtuml.bp.releng.parent/</relativePath>
+    <relativePath>../../releng/org.xtuml.bp.releng.parent.generation/</relativePath>
   </parent>
   <groupId>org.xtuml.bp</groupId>
   <artifactId>org.xtuml.bp.io.core</artifactId>
   <version>5.3.4</version>
   <packaging>eclipse-plugin</packaging>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.8</version>
+        <executions>
+
+          <execution>
+            <id>clean-ant</id>
+            <phase>clean</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <property name="compile_classpath" 
+                          refid="maven.compile.classpath"/>
+                <property name="outputDir"
+                          value="${project.build.outputDirectory}"/>
+                <property name="sourceDir"
+                          value="${project.build.sourceDirectory}"/>
+                <property name="ant.home"
+                          value="/home/johannes/xtuml/BridgePoint/eclipse/plugins/org.apache.ant_1.9.4.v201504302020"/>
+                <ant antfile="${basedir}/generate.xml"
+                     target="clean_all"/>
+              </tasks>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>generate-ant</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <tasks>
+                <property name="compile_classpath" 
+                          refid="maven.compile.classpath"/>
+                <property name="outputDir"
+                          value="${project.build.outputDirectory}"/>
+                <property name="sourceDir"
+                          value="${project.build.sourceDirectory}"/>
+                <property name="ant.home"
+                          value="/home/johannes/xtuml/BridgePoint/eclipse/plugins/org.apache.ant_1.9.4.v201504302020"/>
+                <ant antfile="${basedir}/generate.xml"
+                     target="nb_all"/>
+              </tasks>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

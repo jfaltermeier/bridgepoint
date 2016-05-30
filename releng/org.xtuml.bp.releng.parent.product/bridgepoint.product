@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="BridgePoint" uid="org.xtuml.bp.product" id="org.xtuml.bp.pkg.BridgePoint" application="org.eclipse.ui.ide.workbench" version="5.3.4" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.xtuml.bp.bld.pkg.feature" version="5.3.4"/>
+      <feature id="org.xtuml.bp.pkg.feature" version="5.3.4"/>
+      <feature id="org.xtuml.bp.verifier.pkg.feature" version="5.3.4"/>
+      <feature id="org.eclipse.cdt" version="8.8.0.201509131935"/>
+      <feature id="org.eclipse.epp.package.modeling.feature" version="4.5.1.20150917-1200"/>
+      <feature id="org.eclipse.sdk.examples" version="3.5.500.v20150904-0015"/>
+      <feature id="org.antlr.ui" version="4.1.4.20141115-0900"/>
+      <feature id="org.eclipse.xtext.sdk" version="2.9.2.v201603040440"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+</product>
