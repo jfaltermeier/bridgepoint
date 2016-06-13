@@ -21,3 +21,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Export-Package: org.xtuml.bp.mc.cpp.source
 Bundle-ClassPath: cpp.jar
+Eclipse-BundleShape: dir

@@ -19,3 +19,4 @@ Require-Bundle: org.eclipse.ui,
  org.xtuml.bp.ui.graphics
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-BundleShape: dir
