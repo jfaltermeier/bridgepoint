@@ -47,3 +47,4 @@ Require-Bundle: org.eclipse.compare,
  org.xtuml.bp.model.compare
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-BundleShape: dir

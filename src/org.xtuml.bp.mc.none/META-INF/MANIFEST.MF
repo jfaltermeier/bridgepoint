@@ -21,3 +21,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Export-Package: org.xtuml.bp.mc.none
 Bundle-ClassPath: mcnone.jar
+Eclipse-BundleShape: dir
