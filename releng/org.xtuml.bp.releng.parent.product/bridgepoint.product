@@ -28,10 +28,10 @@
       <feature id="org.xtuml.bp.bld.pkg.feature" version="5.3.4"/>
       <feature id="org.xtuml.bp.pkg.feature" version="5.3.4"/>
       <feature id="org.xtuml.bp.verifier.pkg.feature" version="5.3.4"/>
-      <feature id="org.eclipse.cdt" version="8.8.0.201509131935"/>
-      <feature id="org.eclipse.sdk.examples" version="3.5.500.v20150904-0015"/>
-      <feature id="org.antlr.ui" version="4.1.4.20141115-0900"/>
-      <feature id="org.eclipse.xtext.sdk" version="2.9.2.v201603040440"/>
+      <feature id="org.eclipse.cdt"/>
+      <feature id="org.eclipse.sdk.examples"/>
+      <feature id="org.antlr.ui"/>
+      <feature id="org.eclipse.xtext.sdk"/>
       <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
       <feature id="org.eclipse.help"/>
@@ -53,6 +53,7 @@
       <feature id="org.eclipse.gmf.runtime.sdk"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.epp.package.common.feature"/>
+      <feature id="org.xtuml.bp.jre"/>
    </features>
 
    <configurations>
