@@ -58,10 +58,6 @@
     <module>../../src/org.xtuml.bp.ui.graphics</module>
     <module>../../src/org.xtuml.bp.ui.search</module>
     <module>../../src/org.xtuml.bp.ui.sem</module>
-    <!--module>../../src/org.xtuml.bp.ui.xtext.masl</module-->
-    <!--module>../../src/org.xtuml.bp.ui.xtext.masl.ide</module-->
-    <!--module>../../src/org.xtuml.bp.ui.xtext.masl.tests</module-->
-    <!--module>../../src/org.xtuml.bp.ui.xtext.masl.ui</module-->
     <module>../../src/org.xtuml.bp.utilities</module>
     <module>../../src/org.xtuml.bp.verifier.pkg</module>
     <module>../../src/org.xtuml.bp.verifier.pkg-feature</module>
