@@ -90,7 +90,7 @@
         <artifactId>tycho-compiler-plugin</artifactId>
         <version>${tycho-version}</version>
         <configuration>
-          <compilerArgument>-warn:+discouraged,forbidden -source 1.8</compilerArgument>
+          <compilerArgument>-warn:none</compilerArgument>
         </configuration>
       </plugin>
       
