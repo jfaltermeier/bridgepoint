@@ -42,7 +42,7 @@
 								<property name="ant.home"
 									value="/home/johannes/xtuml/BridgePoint/eclipse/plugins/org.apache.ant_1.9.4.v201504302020" />
 
-								<ant antfile="${basedir}/generate.xml" target="nb_all" />
+								<ant antfile="${basedir}/generate.xml" target="all" />
 							</tasks>
 						</configuration>
 					</execution>
@@ -56,11 +56,7 @@
 				<configuration>
 					<testSuite>org.xtuml.bp.ui.explorer.test</testSuite>
 					<testClass>org.xtuml.bp.ui.explorer.test.ExplorerGlobalsTestSuite</testClass>
-					<argLine>-Xmx1024m -Xms512m
-						-Dorg.eclipse.epp.logging.aeri.ui.skipReports=true
-						-DWORKSPACE_PATH=${basedir}
-						-DLOGFILE_PATH=${project.build.directory}/bp_tests/ui_explorer/.metadata/.log
-						-Dfile.encoding=UTF-8</argLine>
+					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/ui_explorer/.metadata/.log -Dfile.encoding=UTF-8</argLine>
 					<explodedBundles>
 						<explodedBundle>org.xtuml.bp.pkg</explodedBundle>
 					</explodedBundles>
