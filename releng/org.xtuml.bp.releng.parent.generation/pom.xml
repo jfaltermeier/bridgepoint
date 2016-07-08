@@ -17,7 +17,6 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<!-- why are bp.als and bp.ui.tree no osgi bundles? -->
 		<module>../../src/org.xtuml.bp.compare</module>
 		<module>../../src/org.xtuml.bp.core</module>
 		<module>../../src/org.xtuml.bp.io.core</module>
@@ -32,7 +31,7 @@
 
 		<module>../../src/org.xtuml.bp.ui.xtext.masl</module>
 		<module>../../src/org.xtuml.bp.ui.xtext.masl.ide</module>
-		<!-- module>../../src/org.xtuml.bp.ui.xtext.masl.tests</module-->
+		<module>../../src/org.xtuml.bp.ui.xtext.masl.tests</module>
 		<module>../../src/org.xtuml.bp.ui.xtext.masl.ui</module>
 	</modules>
 
