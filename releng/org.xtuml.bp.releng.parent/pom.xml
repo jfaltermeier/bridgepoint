@@ -10,6 +10,7 @@
 
 	<properties>
 		<tycho-version>0.25.0</tycho-version>
+		<ant-home-path>/home/johannes/xtuml/BridgePoint/eclipse/plugins/org.apache.ant_1.9.4.v201504302020</ant-home-path>
 	</properties>
 
 	<repositories>
