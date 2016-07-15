@@ -357,9 +357,7 @@ public class Cl_c {
 				int value = -1;
 				try {
 					value = (Integer)fields[i].get(cl);
-				} catch (IllegalArgumentException e) {
-					CanvasPlugin.logError("Failed to find value for OOA_Type="+name, null);
-				} catch (IllegalAccessException e) {
+				} catch (IllegalArgumentException | IllegalAccessException e) {
 					CanvasPlugin.logError("Failed to find value for OOA_Type="+name, null);
 				}
 				result = Getinstancefromooa_id(Ooa_id, value
