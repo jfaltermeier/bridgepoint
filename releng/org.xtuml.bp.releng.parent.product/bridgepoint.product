@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="BridgePoint" uid="org.xtuml.bp.product" id="org.xtuml.bp.pkg.BridgePoint" application="org.eclipse.ui.ide.workbench" version="5.3.4" useFeatures="true" includeLaunchers="true">
+<product name="BridgePoint" uid="org.xtuml.bp.product" id="org.xtuml.bp.pkg.BridgePoint" application="org.eclipse.ui.ide.workbench" version="5.5.0" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -25,9 +25,9 @@
    </plugins>
 
    <features>
-      <feature id="org.xtuml.bp.bld.pkg.feature" version="5.3.4"/>
-      <feature id="org.xtuml.bp.pkg.feature" version="5.3.4"/>
-      <feature id="org.xtuml.bp.verifier.pkg.feature" version="5.3.4"/>
+      <feature id="org.xtuml.bp.bld.pkg.feature"/>
+      <feature id="org.xtuml.bp.pkg.feature"/>
+      <feature id="org.xtuml.bp.verifier.pkg.feature"/>
       <feature id="org.eclipse.cdt"/>
       <feature id="org.eclipse.sdk.examples"/>
       <feature id="org.antlr.ui"/>
