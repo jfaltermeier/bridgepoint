@@ -3,6 +3,7 @@
 
 <product name="BridgePoint" uid="org.xtuml.bp.product" id="org.xtuml.bp.pkg.BridgePoint" application="org.eclipse.ui.ide.workbench" version="5.5.0" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -11,12 +12,20 @@
       </vmArgsMac>
    </launcherArgs>
 
+   <windowImages/>
+
+   <splash
+      location="org.xtuml.bp.pkg"
+      startupProgressRect="5,275,445,15"
+      startupMessageRect="7,252,445,20"
+      startupForegroundColor="000000" />
    <launcher>
       <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
