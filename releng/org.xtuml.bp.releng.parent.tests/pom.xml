@@ -26,7 +26,6 @@
 		<module>../../src/org.xtuml.bp.ui.canvas.test</module>
 		<module>../../src/org.xtuml.bp.ui.explorer.test</module>
 		<module>../../src/org.xtuml.bp.ui.properties.test</module>
-		<module>../../src/org.xtuml.bp.ui.xtext.masl.ui.tests</module>
 		<module>../../src/org.xtuml.bp.welcome.test</module>
 		<module>../../src/org.xtuml.internal.test</module>
 	</modules>
