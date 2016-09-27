@@ -12,26 +12,20 @@
 	<groupId>org.xtuml.bp</groupId>
 	<artifactId>org.xtuml.bp.ui.text.test</artifactId>
 	<version>1.0.0</version>
-	<!-- TODO packaging must be test-plug for test execution -->
-	<!--packaging>eclipse-test-plugin</packaging -->
-	<packaging>eclipse-plugin</packaging>
+	<packaging>eclipse-test-plugin</packaging>
 
-	<!-- TODO adjust this accordingly  -->
-	<!-- build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-surefire-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<testSuite>org.xtuml.bp.ui.explorer.test</testSuite>
-					<testClass>org.xtuml.bp.ui.explorer.test.ExplorerGlobalsTestSuite</testClass>
-					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/ui_explorer/.metadata/.log -Dfile.encoding=UTF-8</argLine>
-					<explodedBundles>
-						<explodedBundle>org.xtuml.bp.pkg</explodedBundle>
-					</explodedBundles>
+					<testSuite>org.xtuml.bp.ui.text.test</testSuite>
+					<testClass>UITextGlobalsSuite</testClass>
+					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/text/.metadata/.log -Dfile.encoding=UTF-8</argLine>
 				</configuration>
 			</plugin>
 		</plugins>
-	</build-->
+	</build>
 </project>
