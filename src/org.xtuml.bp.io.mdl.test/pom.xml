@@ -22,8 +22,28 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<testSuite>org.xtuml.bp.io.mdl.test</testSuite>
-					<testClass>IOMdlGlobalsTestSuiteGenerics</testClass>
-					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/io_mdl/.metadata/.log -Dfile.encoding=UTF-8</argLine>
+					<testClass>PkgCMGlobalsTestSuiteGenerics</testClass>
+					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/io_mdl/.metadata/.log -Dfile.encoding=UTF-8</argLine>			
+					
+					<executions>
+						<execution>
+							<id>IOMdlGlobalsTestSuiteGenerics</id>
+							<configuration>
+								<testSuite>org.xtuml.bp.io.mdl.test</testSuite>
+								<testClass>IOMdlGlobalsTestSuiteGenerics</testClass>
+								<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/io_mdl/.metadata/.log -Dfile.encoding=UTF-8</argLine>
+							</configuration>
+						</execution>
+						
+						<execution>
+							<id>IOMdlGlobalsTestSuite2Generics</id>
+							<configuration>
+								<testSuite>org.xtuml.bp.io.mdl.test</testSuite>
+								<testClass>IOMdlGlobalsTestSuite2Generics</testClass>
+								<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/io_mdl/.metadata/.log -Dfile.encoding=UTF-8</argLine>
+							</configuration>
+						</execution>
+					</executions>
 				</configuration>
 			</plugin>
 		</plugins>

@@ -52,8 +52,28 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<testSuite>org.xtuml.bp.ui.canvas.test</testSuite>
-					<testClass>CanvasTestResultSuite</testClass>
+					<testClass>CanvasCCPGlobalsTestSuite</testClass>
 					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/ui_explorer/.metadata/.log -Dfile.encoding=UTF-8</argLine>
+							
+					<executions>
+						<execution>
+							<id>GlobalsCanvasSuite1</id>
+							<configuration>
+								<testSuite>org.xtuml.bp.ui.canvas.test</testSuite>
+								<testClass>GlobalsCanvasSuite1</testClass>
+								<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/ui_explorer/.metadata/.log -Dfile.encoding=UTF-8</argLine>
+							</configuration>
+						</execution>
+						
+						<execution>
+							<id>GlobalsCanvasSuite2</id>
+							<configuration>
+								<testSuite>org.xtuml.bp.ui.canvas.test</testSuite>
+								<testClass>GlobalsCanvasSuite2</testClass>
+								<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -DLOGFILE_PATH=${project.build.directory}/bp_tests/ui_explorer/.metadata/.log -Dfile.encoding=UTF-8</argLine>
+							</configuration>
+						</execution>
+					</executions>
 				</configuration>
 			</plugin>
 		</plugins>

@@ -24,6 +24,17 @@
 					<testSuite>org.xtuml.bp.debug.ui.test</testSuite>
 					<testClass>VerifierTestSuite</testClass>
 					<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -Dfile.encoding=UTF-8</argLine>
+			
+					<executions>
+						<execution>
+							<id>ExistingProjectsTestSuite</id>
+							<configuration>
+								<testSuite>org.xtuml.bp.debug.ui.test</testSuite>
+								<testClass>VerifierTestSuite2</testClass>
+								<argLine>-Xmx1024m -Xms512m -Dorg.eclipse.epp.logging.aeri.ui.skipReports=true -DWORKSPACE_PATH=${basedir} -Dfile.encoding=UTF-8</argLine>
+							</configuration>
+						</execution>
+					</executions>
 				</configuration>
 			</plugin>
 		</plugins>
