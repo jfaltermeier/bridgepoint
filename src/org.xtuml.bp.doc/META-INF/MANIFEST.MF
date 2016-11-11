@@ -6,3 +6,4 @@ Bundle-Version: 5.5.0
 Bundle-Vendor: xtUML.org
 Bundle-Localization: plugin
 Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
