@@ -4,6 +4,7 @@
       label="BridgePoint UML"
       version="5.5.0"
       provider-name="xtUML.org"
+      plugin="org.xtuml.bp.pkg"
       image="images/GreenChip.gif">
 
    <copyright>
