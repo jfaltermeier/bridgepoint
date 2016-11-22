@@ -27,7 +27,7 @@
 		<repository>
 			<id>antlr</id>
 			<layout>p2</layout>
-			<url>file:////home/johannes/xtuml/repo/target/repository</url>
+			<url>file:////build/buildmt/repository</url>
 		</repository>
 		<repository>
 			<id>cdt</id>
